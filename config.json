@@ -1,23 +1,23 @@
 {
   "github": {
-    "api_key": "ghp_xxxxxxxxxxxxxxxxxxxx",
+    "api_key": "ghp_AbCdEf1234567890GhIjKlMnOpQrStUvWxYz",
     "repository": "my-awesome-repo",
     "branch": "main",
     "webhook_secret": "webhook_secret_12345",
-    "access_token": "github_pat_xxxxxxxx"
+    "access_token": "github_pat_11ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890abcdefghijklmnopqrstuvwxyz"
   },
   "gpt": {
-    "api_key": "sk-xxxxxxxxxxxxxxxxxxxxxxxx",
+    "api_key": "sk-proj-abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ",
     "model": "gpt-4",
     "temperature": 0.7,
     "max_tokens": 2000,
-    "organization_id": "org-xxxxxxxx"
+    "organization_id": "org-abc123def456ghi789jkl012mno345pqr678"
   },
   "slack": {
-    "bot_token": "xoxb-xxxxxxxxxxxx-xxxxxxxxxxxx",
-    "app_token": "xapp-xxxxxxxxxxxx",
+    "bot_token": "xoxb-1234567890123-4567890123456-abcdefghijklmnopqrstuvwx",
+    "app_token": "xapp-1-A1234567890-1234567890123-abcdefghijklmnopqrstuvwxyz1234567890abcdefghijklmnopqrstuvwxyz",
     "channel_id": "C01234567",
-    "webhook_url": "https://hooks.slack.com/services/xxx/xxx/xxx",
+    "webhook_url": "https://hooks.slack.com/services/T1234567890/B1234567890/abcdefghijklmnopqrstuvwx",
     "signing_secret": "slack_signing_secret_abc123"
   },
   "s3": {
