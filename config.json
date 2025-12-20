@@ -1,0 +1,31 @@
+{
+  "github": {
+    "api_key": "ghp_xxxxxxxxxxxxxxxxxxxx",
+    "repository": "my-awesome-repo",
+    "branch": "main",
+    "webhook_secret": "webhook_secret_12345",
+    "access_token": "github_pat_xxxxxxxx"
+  },
+  "gpt": {
+    "api_key": "sk-xxxxxxxxxxxxxxxxxxxxxxxx",
+    "model": "gpt-4",
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "organization_id": "org-xxxxxxxx"
+  },
+  "slack": {
+    "bot_token": "xoxb-xxxxxxxxxxxx-xxxxxxxxxxxx",
+    "app_token": "xapp-xxxxxxxxxxxx",
+    "channel_id": "C01234567",
+    "webhook_url": "https://hooks.slack.com/services/xxx/xxx/xxx",
+    "signing_secret": "slack_signing_secret_abc123"
+  },
+  "s3": {
+    "access_key_id": "AKIAIOSFODNN7EXAMPLE",
+    "secret_access_key": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY",
+    "bucket_name": "my-s3-bucket",
+    "region": "us-east-1",
+    "endpoint_url": "https://s3.amazonaws.com"
+  }
+}
+
