@@ -55,6 +55,19 @@
     "api_key": "ghp_ExampleSecondaryKey1234567890abcdefghijklmnop",
     "repository": "my-other-repo",
     "branch": "develop"
+  },
+  "github_tertiary": {
+    "api_key": "ghp_ExampleTertiaryKey1234567890abcdefghijklmnopq",
+    "repository": "my-third-repo",
+    "branch": "release",
+    "webhook_secret": "webhook_secret_67890",
+    "access_token": "github_pat_11ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ"
+  },
+  "slack_secondary": {
+    "bot_token": "xoxb-9999999999999-8888888888888-abcdefghijklmnopqrstuvwxyz",
+    "app_token": "xapp-1-Z1234567890-9999999999999-abcdefghijklmnopqrstuvwxyz1234567890",
+    "channel_id": "C07654321",
+    "webhook_url": "https://hooks.slack.com/services/T9999999999/B9999999999/abcdefghijklmnopqrstuvwxyz",
+    "signing_secret": "slack_signing_secret_def456"
   }
 }
-
