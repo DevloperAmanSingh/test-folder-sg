@@ -1,24 +1,33 @@
 {
   "github": {
     "api_key": "ghp_AbCdEf1234567890GhIjKlMnOpQrStUvWxYz",
+    "api_key_readonly": "ghp_R0ExampleReadOnlyToken1234567890ABCDE",
+    "api_key_ci": "ghp_CIExampleToken0987654321ZYXWV",
     "repository": "my-awesome-repo",
     "branch": "main",
     "webhook_secret": "webhook_secret_12345",
-    "access_token": "github_pat_11ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890abcdefghijklmnopqrstuvwxyz"
+    "access_token": "github_pat_11ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890abcdefghijklmnopqrstuvwxyz",
+    "access_token_bot": "github_pat_11BOTBOTBOTBOTBOTBOTBOTBOTBOTBOT"
   },
   "gpt": {
     "api_key": "sk-proj-abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "api_key_backup": "sk-proj-backup-ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890abcdef",
+    "api_key_staging": "sk-proj-staging-abcdef1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ",
     "model": "gpt-4",
     "temperature": 0.7,
     "max_tokens": 2000,
-    "organization_id": "org-abc123def456ghi789jkl012mno345pqr678"
+    "organization_id": "org-abc123def456ghi789jkl012mno345pqr678",
+    "project_id": "proj_example_01HABCDE12345FGHIJKL6789MN"
   },
   "slack": {
     "bot_token": "xoxb-1234567890123-4567890123456-abcdefghijklmnopqrstuvwx",
+    "bot_token_backup": "xoxb-2222222222222-3333333333333-abcdefghijklmnopqrstuvwxyz",
     "app_token": "xapp-1-A1234567890-1234567890123-abcdefghijklmnopqrstuvwxyz1234567890abcdefghijklmnopqrstuvwxyz",
+    "app_token_staging": "xapp-1-B9876543210-0987654321098-abcdefghijklmnopqrstuvwxyz1234567890",
     "channel_id": "C01234567",
     "webhook_url": "https://hooks.slack.com/services/T1234567890/B1234567890/abcdefghijklmnopqrstuvwx",
-    "signing_secret": "slack_signing_secret_abc123"
+    "signing_secret": "slack_signing_secret_abc123",
+    "signing_secret_backup": "slack_signing_secret_xyz789"
   },
   "s3": {
     "access_key_id": "AKIAIOSFODNN7EXAMPLE",
@@ -29,17 +38,21 @@
   },
   "stripe": {
     "api_key": "sk_test_ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890",
+    "api_key_live_placeholder": "sk_live_ABCDEFGHIJKLMNOPQRSTUV1234567890",
     "webhook_secret": "whsec_abcdefghijklmnopqrstuvwxyz1234567890",
-    "publishable_key": "pk_test_ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+    "publishable_key": "pk_test_ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890",
+    "publishable_key_live_placeholder": "pk_live_ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
   },
   "twilio": {
     "api_key": "SKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
     "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
     "auth_token": "your_twilio_auth_token",
+    "auth_token_backup": "your_twilio_auth_token_backup",
     "phone_number": "+15551234567"
   },
   "sendgrid": {
     "api_key": "SG.abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "api_key_backup": "SG.backup-abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ",
     "from_email": "no-reply@example.com"
   },
   "google_maps": {
@@ -49,10 +62,12 @@
   "firebase": {
     "api_key": "AIzaSyA-ExampleFirebaseKey1234567890",
     "project_id": "my-firebase-project",
-    "app_id": "1:1234567890:web:abcdefghijklmnopqrstuvwxyz"
+    "app_id": "1:1234567890:web:abcdefghijklmnopqrstuvwxyz",
+    "measurement_id": "G-1ABCDE2FGH"
   },
   "github_secondary": {
     "api_key": "ghp_ExampleSecondaryKey1234567890abcdefghijklmnop",
+    "api_key_readonly": "ghp_ReadonlySecondaryToken1234567890ABCDE",
     "repository": "my-other-repo",
     "branch": "develop"
   },
@@ -61,13 +76,16 @@
     "repository": "my-third-repo",
     "branch": "release",
     "webhook_secret": "webhook_secret_67890",
-    "access_token": "github_pat_11ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ"
+    "access_token": "github_pat_11ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ",
+    "access_token_ci": "github_pat_11CICICICICICICICICICICICICICICICICI"
   },
   "slack_secondary": {
     "bot_token": "xoxb-9999999999999-8888888888888-abcdefghijklmnopqrstuvwxyz",
+    "bot_token_backup": "xoxb-7777777777777-6666666666666-abcdefghijklmnopqrstuvwxyz",
     "app_token": "xapp-1-Z1234567890-9999999999999-abcdefghijklmnopqrstuvwxyz1234567890",
     "channel_id": "C07654321",
     "webhook_url": "https://hooks.slack.com/services/T9999999999/B9999999999/abcdefghijklmnopqrstuvwxyz",
-    "signing_secret": "slack_signing_secret_def456"
+    "signing_secret": "slack_signing_secret_def456",
+    "signing_secret_backup": "slack_signing_secret_ghi789"
   }
 }
