@@ -26,6 +26,35 @@
     "bucket_name": "my-s3-bucket",
     "region": "us-east-1",
     "endpoint_url": "https://s3.amazonaws.com"
+  },
+  "stripe": {
+    "api_key": "sk_test_ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890",
+    "webhook_secret": "whsec_abcdefghijklmnopqrstuvwxyz1234567890",
+    "publishable_key": "pk_test_ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+  },
+  "twilio": {
+    "api_key": "SKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "auth_token": "your_twilio_auth_token",
+    "phone_number": "+15551234567"
+  },
+  "sendgrid": {
+    "api_key": "SG.abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "from_email": "no-reply@example.com"
+  },
+  "google_maps": {
+    "api_key": "AIzaSyA-ExampleGoogleMapsKey1234567890",
+    "project_id": "my-gmaps-project"
+  },
+  "firebase": {
+    "api_key": "AIzaSyA-ExampleFirebaseKey1234567890",
+    "project_id": "my-firebase-project",
+    "app_id": "1:1234567890:web:abcdefghijklmnopqrstuvwxyz"
+  },
+  "github_secondary": {
+    "api_key": "ghp_ExampleSecondaryKey1234567890abcdefghijklmnop",
+    "repository": "my-other-repo",
+    "branch": "develop"
   }
 }
 
